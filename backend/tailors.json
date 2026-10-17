@@ -1,0 +1,32 @@
+[
+  {
+    "id": "tailor_01",
+    "name": "Master Craftsmen Couture",
+    "location": "Vashi / Nerul, Navi Mumbai",
+    "specialty": "Athletic & Broad-Shoulder Cuts, Tuxedos, Sherwanis",
+    "supported_ratios": ["V-Taper", "High Ratio (>1.35)"],
+    "rating": 4.9,
+    "turnaround_days": 3,
+    "contact": "+91 98200 12345"
+  },
+  {
+    "id": "tailor_02",
+    "name": "Royal Stitch Studio",
+    "location": "Palm Beach Road, Navi Mumbai",
+    "specialty": "Slim Fit Suits, Designer Indo-Western, Kurta Alterations",
+    "supported_ratios": ["Standard Fit", "Balanced Ratio (1.15 - 1.35)"],
+    "rating": 4.8,
+    "turnaround_days": 2,
+    "contact": "+91 98200 67890"
+  },
+  {
+    "id": "tailor_03",
+    "name": "Urbana Signature Bespoke",
+    "location": "Bandra West, Mumbai",
+    "specialty": "Custom Lehengas, Structured Blazers, High-End Embroidery",
+    "supported_ratios": ["All Ratios", "Custom Fit"],
+    "rating": 4.95,
+    "turnaround_days": 4,
+    "contact": "+91 98200 99999"
+  }
+]
