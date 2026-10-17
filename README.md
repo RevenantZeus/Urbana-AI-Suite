@@ -18,17 +18,17 @@ The system provides an instant AI personal stylist interface paired with real-ti
 
 ## 🏗️ Project Architecture
 
-```text
-Urbana AI Suite/
-├── backend/
-│   ├── app.py           # Async WebSocket Server & Gemini API Router
-│   ├── tailors.json     # Partner Tailor Catalog Data
-│   ├── .env.example     # Environment template (No secrets)
-│   └── requirements.txt # Python dependencies
-├── frontend/
-│   └── index.html       # Web client UI & MediaPipe Pose tracker
-├── .gitignore           # Ignores .env and build artifacts
-└── README.md            # 
+* **backend/**
+  * `app.py` — Async WebSocket Server & Gemini API Router
+  * `tailors.json` — Partner Tailor Catalog Data
+  * `.env.example` — Environment template (No secrets)
+  * `requirements.txt` — Python dependencies
+* **frontend/**
+  * `index.html` — Web client UI & MediaPipe Pose tracker
+* `.gitignore` — Ignores .env and build artifacts
+* `README.md` — Documentation
+
+---
 
 ## 🚀 Getting Started
 
@@ -40,26 +40,24 @@ Urbana AI Suite/
 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/urbana-ai-suite.git](https://github.com/YOUR_USERNAME/urbana-ai-suite.git)
+   git clone [https://github.com/YOUR_USERNAME/urbana-ai-suite.git]
    cd urbana-ai-suite
 
-2. **Intall Backend Dependencies**
+Install Backend Dependencies:
+
     ```bash
     cd backend
-    pip install websockets python-dotenv google-genai
+    pip install -r requirements.txt
+    Configure Environment Variables:
+    Copy .env.example to .env in the backend/ folder and insert your Gemini API Key:
 
-3. **Configure Environment Variables:**
-Copy .env.example to .env in the backend/ folder and insert your Gemini API Key:
     ```bash
     cp .env.example .env
-Edit .env and set GEMINI_API_KEY=your_actual_key.
+    Edit .env and set GEMINI_API_KEY=your_actual_key.
 
-4. **Run the Backend Server:**
+Run the Backend Server:
+
     ```bash
     python app.py
-    
-5. **Launch the Frontend:**
-    Open frontend/index.html directly in any web browser.
-    
-6. **Launch the Frontend:**
+    Launch the Frontend:
     Open frontend/index.html directly in any web browser.
