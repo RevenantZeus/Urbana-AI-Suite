@@ -17,6 +17,8 @@ The system provides an instant AI personal stylist interface paired with real-ti
 ---
 
 ## 🏗️ Project Architecture
+
+```text
 Urbana AI Suite/
 ├── backend/
 │   ├── app.py           # Async WebSocket Server & Gemini API Router
@@ -26,8 +28,7 @@ Urbana AI Suite/
 ├── frontend/
 │   └── index.html       # Web client UI & MediaPipe Pose tracker
 ├── .gitignore           # Ignores .env and build artifacts
-└── README.md            # Documentation
----
+└── README.md            # 
 
 ## 🚀 Getting Started
 
