@@ -39,27 +39,19 @@ The system provides an instant AI personal stylist interface paired with real-ti
 ### Installation & Setup
 
 1. **Clone the Repository:**
-```bash
-   git clone [https://github.com/YOUR_USERNAME/urbana-ai-suite.git]
-   cd urbana-ai-suite
+   `git clone [https://github.com/RevenantZeus/Urbana-AI-Suite.git](https://github.com/RevenantZeus/Urbana-AI-Suite.git)`
+   `cd Urbana-AI-Suite`
 
 2. **Install Backend Dependencies:**
-```bash
-    cd backend
-    pip install -r requirements.txt
-    
+   `cd backend`
+   `pip install -r requirements.txt`
+
 3. **Configure Environment Variables:**
-    Copy .env.example to .env in the backend/ folder and insert your Gemini API Key:
+   Copy `.env.example` to `.env` in the `backend/` folder: `cp .env.example .env`
+   *Edit `.env` and set `GEMINI_API_KEY=your_actual_key`.*
 
-```bash
-    cp .env.example .env
-    
-    Edit .env and set GEMINI_API_KEY=your_actual_key.
+4. **Run the Backend Server:**
+   `python app.py`
 
-3. **Run the Backend Server:**
-
-```bash
-    python app.py
-
-4. **Launch the Frontend:**
-    Open frontend/index.html directly in any web browser.
+5. **Launch the Frontend:**
+   Open `frontend/index.html` directly in any web browser.
